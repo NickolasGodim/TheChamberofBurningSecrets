@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1199da3270885c94fbaebbc2b184c639
+guid: bd29441d33c686642b24144341ac833c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,180 +110,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle
+      name: pokey_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 15
+        x: 10
+        y: 2
+        width: 12
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc23be55bb6f3d04a853aea0f824dad3
-      internalID: -1159898126
+      spriteID: 5a1d28efa839f5f4098054edc4ccb3f6
+      internalID: -783324993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_01
+      name: pokey_spritesheet_1
       rect:
         serializedVersion: 2
         x: 41
-        y: 0
+        y: 2
         width: 13
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19a710b95de9b9e4d8d0460df37140bc
-      internalID: 1499976478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walk_02
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 0
-        width: 16
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fd607393426f5f4f90c1ce92c4aa933
-      internalID: -65779609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walk_03
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 0
-        width: 19
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0a21936f8369104c98f02dadab9b3ff
-      internalID: -218888254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walk_04
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 0
-        width: 21
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a960e39225f3b04408cb5d892ef530ed
-      internalID: 1625440994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 3
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14e93b6be59d3114b91f8bc09361d8d2
-      internalID: -491249595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_01
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 0
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed1a3451035c89741826bd6e43db29b1
-      internalID: 1894282695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_02
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 0
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cead674c6f0ae12479c0a038ee4add1d
-      internalID: -426601857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_03
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 0
-        width: 26
         height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -292,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf7b57a8be010f409ae0ea296933f69
-      internalID: -864358015
+      spriteID: 1eaf1c4c778bdc64bbf518052c97b8ce
+      internalID: -1080131561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_04
+      name: pokey_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 294
-        y: 0
-        width: 20
-        height: 30
+        x: 72
+        y: 2
+        width: 14
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,8 +166,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 493fd6cad946802448010d47062c4414
-      internalID: -630728531
+      spriteID: ddabb2f4926012c4ab0720b362ea3b25
+      internalID: 538863044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc77577014af0e4ab11013d0d19c5b1
+      internalID: -375441018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96abaf935467124ea5ffce8032c629d
+      internalID: -1562299965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2735a074348e7714f803c4d55897b0bf
+      internalID: -684652745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ff8e0139073734a8a7e5d226328442
+      internalID: -1357017709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2292d0e192d1644c862256fe3d0bde8
+      internalID: 356084380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798a68195b1e608439129f50c493a940
+      internalID: 369158493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dced79b8d20d0c04bb0084ea38a0712f
+      internalID: -446094848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa72f547b0b97854399747ea34fefdb1
+      internalID: -1302514035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f8c85b26d705b4f8aa39be73f07f8b
+      internalID: 124438398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokey_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43e6b97d6ffae64d84e8472bc47516b
+      internalID: -675314304
       vertices: []
       indices: 
       edges: []
@@ -330,16 +393,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attack_01: 1894282695
-      Attack_02: -426601857
-      Attack_03: -864358015
-      Attack_04: -630728531
-      Jump: -491249595
-      Walk_01: 1499976478
-      Walk_02: 1499976478
-      Walk_03: 1499976478
-      Walk_04: 1499976478
-      idle: -1159898126
+      pokey_spritesheet_0: -783324993
+      pokey_spritesheet_1: -1080131561
+      pokey_spritesheet_10: -1302514035
+      pokey_spritesheet_11: 124438398
+      pokey_spritesheet_12: -675314304
+      pokey_spritesheet_2: 538863044
+      pokey_spritesheet_3: -375441018
+      pokey_spritesheet_4: -1562299965
+      pokey_spritesheet_5: -684652745
+      pokey_spritesheet_6: -1357017709
+      pokey_spritesheet_7: 356084380
+      pokey_spritesheet_8: 369158493
+      pokey_spritesheet_9: -446094848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
